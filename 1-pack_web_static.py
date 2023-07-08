@@ -1,13 +1,14 @@
 #!/usr/bin/python3
 """
 With Facric , creates a tgz archive
-from web_static content folder
-"""
-
+from web_static content foldmport col
 from datetime import datetime
 from fabric.api import local
 from os.path import isdir
-
+"""
+from datetime import datetime
+from fabric.api import local
+from os.path import isdir
 
 def do_pack():
     """Creates a tgz archive using fabric"""
